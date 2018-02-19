@@ -3,9 +3,9 @@ var recipes = new Object ({
   prop2 : 2
 });
 
-function updateObjectWithKeyAndValue (recipes, prop, prop2) {
+function updateObjectWithKeyAndValue (recipes, key, value) {
 
- return Object.assign({}, recipes, {});
+ return Object.assign({}, recipes, {[prop]: 1, [prop2]: 2});
 }
 
 // updateObjectWithKeyAndValue(recipes, prop2, 2);
