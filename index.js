@@ -11,7 +11,7 @@ function updateObjectWithKeyAndValue (recipes, key, value) {
  
 
 function destructivelyUpdateObjectWithKeyAndValue (recipes, key, value) {
-  recipes[prop] = 1;
+  recipes[key] = value;
   return recipes;
 }
 
