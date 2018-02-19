@@ -8,7 +8,7 @@ function updateObjectWithKeyAndValue (recipes, prop, prop2) {
  return Object.assign({}, recipes, {});
 }
 
-updateObjectWithKeyAndValue(recipes, prop2, 2);
+// updateObjectWithKeyAndValue(recipes, prop2, 2);
  
 
 function destructivelyUpdateObjectWithKeyAndValue (recipes, prop, prop2) {
