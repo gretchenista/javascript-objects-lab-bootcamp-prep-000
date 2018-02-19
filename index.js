@@ -20,7 +20,7 @@ recipes;
 function deleteFromObjectByKey (recipes, key) {
     var obj = {key};
     var newObj = Object.assign({}, obj);
-    delete newObj.prop[1];
+    delete newObj.key;
 }
 
 newObj;
